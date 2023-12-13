@@ -40,7 +40,7 @@ function PostDetails() {
           </div>
         </>
       ) : (
-        <p>Loading post details...</p>
+        <p><div className="spinner"></div></p>
       )}
     </div>
   )
