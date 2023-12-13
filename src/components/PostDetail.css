@@ -1,0 +1,32 @@
+.post-detail{
+    color: white;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.post-detail p{
+    font-size: 20px;
+}
+
+.comments h2 {
+    margin-bottom: 0px;
+}
+
+.comments ol {
+    text-align: left;
+    padding:15px 40px 40px 40px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    line-height: 25px;
+}
+
+.post-detail button{
+    padding: 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    position: absolute;
+}
+
+

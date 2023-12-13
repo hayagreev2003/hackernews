@@ -1,0 +1,171 @@
+/* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(30, 74, 155);
+}
+
+form {
+    margin-bottom: 2rem;
+}
+
+input{
+    font-family: inherit;
+    font-size: 1.5 rem;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    padding: 1.25rem 1rem;
+    color: rgb(187, 202, 231);
+    border: 0.1rem solid rgb(187, 202, 231);
+    margin-right: 1rem;
+    border-radius: 0.625rem;
+}
+
+input::placeholder {
+    color: rgb(187, 202, 231);
+}
+
+button {
+    font-family: inherit;
+    font-size: 1.5 rem;
+    outline: none;
+    border: none;
+    color: rgb(30, 74, 155);
+    background-color: white;
+    padding: 1.25rem 1rem;
+    border: 0.1rem solid white;
+    border-radius: 0.625rem;    
+}
+
+button:hover {
+    background-color: transparent;
+    cursor: pointer;
+    color: rgb(187, 202, 231);
+    transition: all 0.15s ease-in-out;
+}
+
+.spinner{
+    width: 3rem;
+    height: 3rem;
+    border: 0.1rem solid rgb(187, 202, 231);
+    border-top-color: rgb(30, 74, 155);
+    border-radius: 50%;
+    animation: spin 0.5s infinite linear;
+    margin: auto;
+}
+
+@keyframes spin {
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+.category{
+    color: rgb(187, 202, 231) ;
+    margin-bottom: 1rem;
+}
+
+.category span{
+    font-weight: bold;
+    color: white;
+}
+
+ul {
+    padding-inline-start: 0px;
+    list-style-type: none;
+}
+
+ul li {
+    padding: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.section {
+    padding: 1.25rem;
+}
+
+.title h1 {
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.title a {
+    display: flex;
+    color: rgb(187, 202, 231);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+}
+
+.title a:hover {
+    color: white;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+.cards-div {
+    color: rgb(187, 202, 231);
+    background-color: rgb(46, 96, 189);
+    padding: 1rem;
+    border-radius: 0.625rem;
+}
+
+.cards-div h2 {
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.cards-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.cards-div ul li a {
+    color: rgb(187, 202, 231);
+    text-decoration: underline;
+}
+
+@media (min-width: 768px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1024px) {
+    .title h1{
+        font-size: 4rem;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+    }
+    
+    input {
+        width: 100%;
+    }
+
+    .section {
+        max-width: 992px;
+        margin: auto;
+    }
+    
+} */
