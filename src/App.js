@@ -10,7 +10,7 @@ function App() {
       <div className='container'>
         <Routes>
           <Route path='/' element={<Home/>} />
-          <Route path="/post/:objectID" element={<PostDetails />} />
+          <Route path="/post/:objectID" element={<PostDetails/>} />
         </Routes>
       </div>
     </BrowserRouter>
